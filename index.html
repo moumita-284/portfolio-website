@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- MAIN CSS -->
+    <title>Personal Portfolio Website Design</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <!-- HEADER DESIGN -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Moumita Haldar</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Currently looking for a job position in a organization that needs an Individual who will work as a computer science and engineering and has the ability to work with a team for particular purpose.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/moumita-haldar-11615b313/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/moumita-284"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="img/Moumita haldar CV.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/profile_dp.png" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about_dp.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I am a passionate web developer with a love for creating beautiful, user-friendly designs.
+                <span id="dots">...</span>
+                <span id="more" style="display: none;">
+                I have experience in HTML, CSS, JavaScript, and various frontend frameworks. I enjoy solving problems and bringing ideas to life through code. When I'm not coding, you can find me exploring design trends or learning new technologies.
+                </span>
+            </p>
+            <a href="javascript:void(0)" id="readBtn" class="btn">Read more</a>  
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <img src="img/education/btech.png" alt="University Logo">
+            </div>
+                <div class="timeline-content">
+                    <h3>B.Tech in Computer Science Engineering</h3>
+                    <span>2022 - 2025 | JIS University, Kolkata</span>
+                    <p>CGPA: 8.02/10</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="img/education/diploma.png" alt="College Logo">
+                </div>
+                <div class="timeline-content">
+                    <h3>Diploma in Computer Science & Technology</h3>
+                    <span>2019 - 2022 | GKCIET, Malda</span>
+                    <p>CGPA: 8.1/10</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="img/education/Higher Secondary.jpg" alt="School Logo">
+                </div>
+                <div class="timeline-content">
+                    <h3>Higher Secondary (XII)</h3>
+                    <span>2017 - 2019 | JAC Board, Jharkhand</span>
+                    <p>Percentage: 64.5%</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="img/education/Secondary.jpg" alt="School Logo">
+                </div>
+                <div class="timeline-content">
+                    <h3>Secondary (X)</h3>
+                    <span>2015 - 2017 | CBSE Board</span>
+                    <p>CGPA: 07/10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION DESIGN -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My<span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skills-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Devepment</h3>
+                <p>
+                    Experienced in HTML, CSS, JavaScript, and React for responsive websites.
+                    <span class="dots">...</span>
+                    <span class="more" style="display:none;">
+                        Also familiar with modern UI/UX principles, Bootstrap, and responsive design.
+                    </span>
+                </p>
+                <a href="javascript:void(0)" class="btn readBtn">Read more</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-c"></i>
+                <h3>C Programming</h3>
+                <p>
+                    Strong knowledge of programming fundamentals and problem-solving.
+                    <span class="dots">...</span>
+                    <span class="more" style="display:none;">
+                        Experienced in writing efficient code, handling data structures, and algorithms.
+                    </span>
+                </p>
+                <a href="javascript:void(0)" class="btn readBtn">Read more</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>MySQL</h3>
+                <p>
+                    Good understanding of relational databases and SQL queries.
+                    <span class="dots">...</span>
+                    <span class="more" style="display:none;">
+                        Worked on database design, joins, subqueries, and normalization concepts.
+                    </span>
+                </p>
+                <a href="javascript:void(0)" class="btn readBtn">Read more</a>
+            </div>
+        </div>
+    </section>   
+   
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/project/img1.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio</h4>
+                    <p>My personal responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+                    <a href="https://personalportfolio-moumita.netlify.app/" target="_blank" class="view-btn">
+                    <i class="fa-solid fa-up-right-form-square"></i> View
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project/img2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tic Tac Toe</h4>
+                    <p>Interactive Tic Tac Toe game created using JavaScript.</p>
+                    <a href="https://tictactoe284.netlify.app/" target="_blank" class="view-btn">
+                    <i class="fa-solid fa-up-right-form-square"></i> View
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project/img3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Shortest Path Finder</h4>
+                    <p>Algorithm visualizer for shortest path finding techniques.</p>
+                    <a href="https://shortest-path-finder1.netlify.app/" target="_blank" class="view-btn">
+                    <i class="fa-solid fa-up-right-form-square"></i> View
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project/img4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Resume Builder</h4>
+                    <p>Simple tool to create professional resumes online.</p>
+                    <a href="https://resume-builder-28.netlify.app/" target="_blank" class="view-btn">
+                    <i class="fa-solid fa-up-right-form-square"></i> View
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project/img5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Modern responsive website design templates.</p>
+                    <a href="#" target="_blank" class="view-btn">
+                    <i class="fa-solid fa-up-right-form-square"></i> View
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/project/img6.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Form Design</h4>
+                    <p>Creative HTML & CSS form designs for web applications.</p>
+                    <a href="https://simpleformdesign1.netlify.app/" target="_blank" class="view-btn">
+                    <i class="fa-solid fa-up-right-form-square"></i> View
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION DESIGN -->
+
+    <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form id="contactForm" action="https://formspree.io/f/mldlqyye" method="POST">
+        <div class="input-box">
+            <input type="text" name="Full Name" placeholder="Full Name" required>
+            <input type="email" name="Email Address" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+            <input type="tel" name="Mobile Number" placeholder="Mobile Number" required>
+            <input type="text" name="Email Subject" placeholder="Email Subject" required>
+        </div>
+        <textarea name="Your Message" placeholder="Your Message" required></textarea>
+        <div class="btn-box">
+            <button type="submit" class="btn">Send Message</button>
+        </div>
+    </form>
+    <p id="formMessage" style="display:none; margin-top:10px; font-size:1.5rem;"></p>
+    </section>
+
+    <!-- FOOTER SECTION DESIGN -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by @moumita | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- SCROLL REVEAL JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- TYPED JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- MAIN JS-->
+    <script src="JS/main.js"></script>
+</body>
+</html>
