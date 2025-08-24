@@ -40,7 +40,6 @@ It is built using **HTML, CSS, and JavaScript** and is fully responsive and mobi
 If you’d like to connect with me:  
 - LinkedIn: [Your Profile](https://linkedin.com/in/your-id)  
 - GitHub: [Your GitHub](https://github.com/moumita-284)  
-- Email: youremail@gmail.com  
 
 ---
 ⭐ Don’t forget to give this repo a star if you like it!
